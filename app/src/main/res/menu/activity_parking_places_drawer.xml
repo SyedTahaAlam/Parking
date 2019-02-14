@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group  android:id="@+id/user_menu">
+        <item
+            android:id="@+id/parking_place"
+
+            android:title="@string/park" />
+        
+
+        <item
+            android:id="@+id/cancel_parking"
+
+            android:title="@string/cancel_parking"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+
+                android:title="@string/share_review" />
+            <item
+                android:id="@+id/feedback_replies"
+
+                android:title="@string/share_review" />
+
+            <item
+                android:id="@+id/about"
+                android:title="@string/about_us" />
+        </menu>
+    </item>
+
+</menu>

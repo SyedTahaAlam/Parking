@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group  android:id="@+id/admin_menu"
+        >
+        <item
+            android:id="@+id/parking_place"
+
+            android:title="@string/park" />
+      
+
+        <item
+            android:id="@+id/cancel_parking"
+
+            android:title="@string/cancel_parking" />
+        <item
+            android:id="@+id/view_user"
+            android:title="@string/view_user"/>
+        <item
+            android:id="@+id/reply_feedback"
+
+            android:title="@string/see_feedback" />
+    </group>
+
+
+</menu>
